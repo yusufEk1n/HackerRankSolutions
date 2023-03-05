@@ -6,3 +6,4 @@ This repo contains my hackerrank solutions.
 - [Simple Array Sum](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/SimpleArraySum)
 - [Compare The Triplets](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/CompareTheTriplets)
 - [A Very Big Sum](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/AVeryBigSum)
+- [Diagonal Difference](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/DiagonalDifference)
