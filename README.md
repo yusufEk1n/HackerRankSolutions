@@ -4,3 +4,5 @@ This repo contains my hackerrank solutions.
 ### List of C# solutions.
 - [Solve My First](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/SolveMyFirst)
 - [Simple Array Sum](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/SimpleArraySum)
+- [Compare The Triplets](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/CompareTheTriplets)
+- [A Very Big Sum](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/AVeryBigSum)
