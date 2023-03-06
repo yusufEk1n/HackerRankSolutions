@@ -9,3 +9,4 @@ This repo contains my hackerrank solutions.
 - [Diagonal Difference](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/DiagonalDifference)
 - [Stair Case](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/StairCase)
 - [Mini max Sum](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/MiniMaxSum)
+- [Birthday Cake Candles](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/BirthdayCakeCandles)
