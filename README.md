@@ -7,3 +7,4 @@ This repo contains my hackerrank solutions.
 - [Compare The Triplets](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/CompareTheTriplets)
 - [A Very Big Sum](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/AVeryBigSum)
 - [Diagonal Difference](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/DiagonalDifference)
+- [Stair Case](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/StairCase)
