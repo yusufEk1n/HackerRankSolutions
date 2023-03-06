@@ -10,3 +10,4 @@ This repo contains my hackerrank solutions.
 - [Stair Case](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/StairCase)
 - [Mini max Sum](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/MiniMaxSum)
 - [Birthday Cake Candles](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/BirthdayCakeCandles)
+- [Time Conversion](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/TimeConversion)
