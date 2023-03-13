@@ -26,6 +26,9 @@
 		},
 		{
 			"path": "TimeConversion"
+		},
+		{
+			"path": "GradingStudents"
 		}
 	]
 }
