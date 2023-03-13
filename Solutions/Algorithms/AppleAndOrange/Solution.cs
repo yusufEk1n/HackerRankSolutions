@@ -26,7 +26,6 @@
             }
         }
 
-        
         foreach(int orange in oranges)
         {
             if(s <= (orange + b) && (orange + b) <= t)
@@ -34,7 +33,6 @@
                 orangeCount++;
             }
         }
-
         Console.WriteLine(appleCount);
         Console.WriteLine(orangeCount);
     }
