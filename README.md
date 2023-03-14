@@ -17,3 +17,4 @@ This repo contains my hackerrank solutions.
 - [Between Two Sets](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/BetweenTwoSets)
 - [Breaking the Record](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/BreakingTheRecords)
 - [Subarray Division](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/SubarrayDivision)
+- [Divisible Sum Pairs](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/DivisibleSumPairs)
