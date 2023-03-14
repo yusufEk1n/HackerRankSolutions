@@ -18,3 +18,4 @@ This repo contains my hackerrank solutions.
 - [Breaking the Record](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/BreakingTheRecords)
 - [Subarray Division](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/SubarrayDivision)
 - [Divisible Sum Pairs](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/DivisibleSumPairs)
+- [Migratory Birds](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/MigratoryBirds)

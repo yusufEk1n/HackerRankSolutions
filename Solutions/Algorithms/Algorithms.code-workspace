@@ -47,6 +47,9 @@
 		},
 		{
 			"path": "DivisibleSumPairs"
+		},
+		{
+			"path": "MigratoryBirds"
 		}
 	]
 }
