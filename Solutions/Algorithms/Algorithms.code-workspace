@@ -50,6 +50,9 @@
 		},
 		{
 			"path": "MigratoryBirds"
+		},
+		{
+			"path": "DayOfTheProgrammer"
 		}
 	]
 }

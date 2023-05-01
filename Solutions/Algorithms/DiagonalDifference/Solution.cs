@@ -17,18 +17,8 @@ class Result
 
         for(int i = 0; i < arrCount; i++)
         {
-            for(int j = 0; j < arrCount; j++)
-            {
-                if(arr[i] == arr[j])
-                {
-                    rightDiagonal = rightDiagonal + arr[i][j];
-                }
-
-                if(i + j == arrCount - 1)
-                {
-                    leftDiagonal = leftDiagonal + arr[i][j];
-                }
-            }
+            rightDiagonal = rightDiagonal + arr[i][i];
+            leftDiagonal = leftDiagonal + arr[i][arrCount - i - 1];
         }
         return Math.Abs(rightDiagonal - leftDiagonal);
     }   

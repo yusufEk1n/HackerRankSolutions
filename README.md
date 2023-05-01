@@ -19,3 +19,4 @@ This repo contains my hackerrank solutions.
 - [Subarray Division](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/SubarrayDivision)
 - [Divisible Sum Pairs](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/DivisibleSumPairs)
 - [Migratory Birds](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/MigratoryBirds)
+- [Day of the Programmer](https://github.com/yusufEk1n/HackerRankSolutions/tree/master/Solutions/Algorithms/DayOfTheProgrammer)

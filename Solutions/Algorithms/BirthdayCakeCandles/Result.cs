@@ -11,18 +11,17 @@ class Result
 
     public static int birthdayCakeCandles(List<int> candles)
     {
-        int max = candles[0];
+        int max = 0;
         int blowOutCandles = 0;
-        
-        for(int i = 0; i < candles.Count; i++)
-        {
-            if(max < candles[i])
-                max = candles[i];
-        }
 
         foreach(var item in candles)
         {
-            if(item == max)
+            if(item > max)
+            {
+                max = item;
+                blowOutCandles = 1;
+            }
+            else if(item == max)
                 blowOutCandles++;
         }
         return blowOutCandles;

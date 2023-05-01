@@ -55,8 +55,5 @@ class Solution
         List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
         int result = Result.migratoryBirds(arr);
-
-        Console.WriteLine(result);
-
     }
 }

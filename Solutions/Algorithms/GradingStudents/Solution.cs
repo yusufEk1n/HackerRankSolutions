@@ -13,26 +13,39 @@ class Result
     public static List<int> gradingStudents(List<int> grades)
     {
         List<int> finalGrade = new List<int>();
+        int passingGrade = 38;
 
-        for(int i = 0; i < grades.Count; i++)
+        foreach(int grade in grades)
         {
-            if(grades[i] < 38)
+            if(grade < passingGrade || grade % 5 < 3)
             {
-                finalGrade.Add(grades[i]);
+                finalGrade.Add(grade);
             }
             else
             {
-                int remainder = grades[i] % 5;
-                if((5 - remainder) < 3)  
-                {
-                    finalGrade.Add(grades[i] + (5 - remainder));
-                }
-                else
-                {
-                    finalGrade.Add(grades[i]);
-                }
+                finalGrade.Add(grade + (5 - (grade % 5)));
             }
         }
+
+        // for(int i = 0; i < grades.Count; i++)
+        // {
+        //     if(grades[i] < 38)
+        //     {
+        //         finalGrade.Add(grades[i]);
+        //     }
+        //     else
+        //     {
+        //         int remainder = grades[i] % 5;
+        //         if((5 - remainder) < 3)  
+        //         {
+        //             finalGrade.Add(grades[i] + (5 - remainder));
+        //         }
+        //         else
+        //         {
+        //             finalGrade.Add(grades[i]);
+        //         }
+        //     }
+        // }
         return finalGrade;
     }
 

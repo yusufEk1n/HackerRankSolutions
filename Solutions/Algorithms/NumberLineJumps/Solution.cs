@@ -14,9 +14,6 @@
 
     public static string kangaroo(int x1, int v1, int x2, int v2)
     {
-        int a = (v2 - v1);
-        int b = (x2 - x1);
-
         if(v1 < v2 && x1 < x2)
         {
             return "NO";

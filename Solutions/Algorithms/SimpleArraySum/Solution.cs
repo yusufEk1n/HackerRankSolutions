@@ -9,14 +9,15 @@ class Result
      * The function accepts INTEGER_ARRAY ar as parameter.
      */
 
-    public static int simpleArraySum(List<int> ar)
+    public static int simpleArraySum(List<int> arr)
     {
         int sum = 0;
-        
-        foreach(var item in ar)
+
+        for(int i = 0; i < arr.Count; i++)
         {
-            sum = sum + item;
+            sum = sum + arr[i];
         }
+
         return sum;
     }
 
