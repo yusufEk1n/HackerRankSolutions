@@ -1,0 +1,35 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Update README
+      run: |
+        for dir in Solutions/Algorithms/*; do
+        if [ -d "$dir" ]; then
+            folder_name=$(basename "$dir")
+            if ! grep -q "$folder_name" README.md; then
+              echo "- [${folder_name}](${{ github.server_url }}/${{ github.repository }}/tree/${{ github.ref_name }}/$dir)" >> README.md
+            fi
+        fi
+        done
+        git config user.email "readme-bot@repo"
+        git config user.name "README-bot"
+        git commit -am "Update README"
+        git push
+    
+    - name: Fetch changes to local repository
+      run: git pull origin master
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
